@@ -1,0 +1,19 @@
+.forum-archive.bbpress {
+	#bbpress-forums {
+		.bbp-header {
+			background: $thim_body_primary_color;
+		}
+
+		.bbp-body ul{
+			.bbp-forum-title {
+				&:hover {
+					color: $thim_body_primary_color;
+				}
+			}
+
+			.bbp-author-name{
+				color: $thim_body_primary_color;
+			}
+		}
+	}
+}

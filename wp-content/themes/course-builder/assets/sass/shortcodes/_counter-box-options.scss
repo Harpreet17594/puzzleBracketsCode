@@ -1,0 +1,14 @@
+.thim-sc-counter-box {
+	.counter_box {
+		&:hover {
+			.title_counter {
+				.title {
+					color: $thim_body_primary_color !important;
+				}
+			}
+			.icon_counter {
+				color: $thim_body_primary_color;
+			}
+		}
+	}
+}

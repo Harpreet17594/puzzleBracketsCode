@@ -1,0 +1,106 @@
+.lp-learning {
+	.header-course {
+		.header-content {
+			button {
+				background: $thim_body_primary_color;
+			}
+			.lp-course-status {
+				color: $thim_font_title_color;
+				.text-number b {
+					color: $thim_body_primary_color;
+				}
+			}
+		}
+	}
+
+	.course-learning-summary {
+		.course-meta {
+			margin-bottom: 0;
+		}
+		.learn-press-tabs {
+			.nav-tabs-wrapper {
+				.learn-press-nav-tabs {
+					.learn-press-nav-tab {
+						a {
+							color: $thim_font_body_color;
+						}
+						&:hover, &.active {
+							a {
+								color: $thim_font_title_color;
+							}
+							&:after {
+								border-bottom: 3px solid $thim_body_primary_color;
+							}
+						}
+					}
+				}
+			}
+			.tabs-wrapper {
+				.learn-press-tab-panel-reviews {
+
+				}
+			}
+		}
+	}
+	.course-review-wrapper {
+		.review-fields {
+			li {
+				input, textarea {
+					&:hover {
+						border-color: $thim_body_primary_color;
+					}
+				}
+
+			}
+		}
+	}
+}
+
+.lp-learning, .lp-landing {
+	.reviews {
+		.course-rate {
+			span {
+				&:last-child {
+					color: $thim_body_primary_color;
+				}
+			}
+		}
+	}
+	#course-reviews {
+		.course-reviews-list {
+			li {
+				.review-stars-rated {
+					.review-stars {
+						&.empty, &.filled {
+							color: $thim_body_primary_color;
+						}
+					}
+				}
+				&.loading {
+					.fa-spin {
+						color: $thim_body_primary_color;
+					}
+				}
+				.review-time {
+					&:after {
+						border-bottom: 1px solid $thim_font_title_color;
+					}
+				}
+				.user-name:hover {
+					color: $thim_body_primary_color;
+				}
+
+			}
+		}
+	}
+
+	button {
+		&.button, &.write-a-review, &.submit-review {
+			background-color: $thim_body_primary_color;
+			&:hover {
+				background-color: darken($thim_body_primary_color, 20%);
+			}
+		}
+	}
+
+}

@@ -1,0 +1,34 @@
+.thim-instructors {
+	.avatar-item {
+		.avatar-instructors {
+			.author-social {
+				a {
+					&:hover {
+						background: $thim_body_primary_color;
+						border-color: $thim_body_primary_color;
+					}
+				}
+			}
+		}
+		.avartar-info {
+			h5 {
+				a {
+					&:hover {
+						color: $thim_body_primary_color;
+					}
+				}
+			}
+		}
+	}
+	.load-more {
+		background: $thim_body_primary_color;
+		&:hover {
+			background: darken($thim_body_primary_color, 10%);
+		}
+	}
+}
+.sk-three-bounce {
+	.sk-child {
+		background-color: $thim_body_primary_color;
+	}
+}

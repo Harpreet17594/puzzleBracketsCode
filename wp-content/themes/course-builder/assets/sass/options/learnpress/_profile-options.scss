@@ -1,0 +1,144 @@
+.lp-profile{
+	.learn-press-user-profile{
+		.list-contact{
+			.item{
+				.contact-icon{
+					&:hover{
+						color: $thim_body_primary_color;
+						border-color: $thim_body_primary_color;
+					}
+				}
+				.contact-content{
+					a:hover{
+						color: $thim_body_primary_color;
+					}
+				}
+			}
+		}
+	}
+
+	.group-settings{
+		.tabs-title{
+			.tab{
+				a{
+					color: $thim_font_body_color;
+					&:hover {
+						color: $thim_body_primary_color;
+					}
+				}
+
+				&.active{
+					a{
+						color: $thim_font_title_color;
+					}
+
+					&:after{
+						background-color: $thim_body_primary_color;
+					}
+				}
+			}
+		}
+	}
+
+	.lp-form-field{
+		input, textarea{
+			color: $thim_font_body_color;
+		}
+		input:focus, textarea:focus{
+			color: $thim_font_title_color;
+			border-color: $thim_body_primary_color;
+		}
+
+		input:focus{
+			.input-group-addon{
+				border-color: $thim_body_primary_color;
+			}
+		}
+	}
+
+	.additional-information {
+		.lp-form-field-input {
+			input:focus ~ .icon{
+				color: $thim_body_primary_color;
+			}
+		}
+
+		.lp-form-field{
+			.lp-form-field-input{
+				.clear-field{
+					&:after{
+						background-color: $thim_font_body_color;
+					}
+				}
+				input[type=text]:focus{
+					& ~ .clear-field{
+						color: $thim_body_primary_color;
+
+						&:after{
+							background-color: $thim_body_primary_color;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.lp-user-profile-form .submit.update-profile{
+		button[type=submit]{
+			background-color: $thim_body_primary_color;
+		}
+	}
+
+	.after-main{
+		form.wpcf7-form {
+			label {
+				color: $thim_font_title_color;
+			}
+
+			input, textarea{
+				&:focus{
+					border-color: $thim_body_primary_color;
+				}
+			}
+		}
+	}
+}
+
+//Wishlist
+.learn-press-wishlist-courses {
+	li {
+		a {
+			&:hover {
+				color: $thim_body_primary_color;
+			}
+		}
+		button {
+			background: $thim_body_primary_color;
+			&:hover {
+				background: darken($thim_body_primary_color, 10%);
+			}
+		}
+	}
+}
+
+.lp_order_details {
+	~ a {
+		background: $thim_body_primary_color;
+		&:hover {
+			background: darken($thim_body_primary_color, 10%);
+		}
+	}
+}
+.order_details {
+	tbody {
+		tr {
+			td {
+				a {
+					&:hover {
+						color: $thim_body_primary_color;
+					}
+				}
+			}
+		}
+	}
+}

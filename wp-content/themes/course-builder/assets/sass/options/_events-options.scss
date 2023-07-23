@@ -1,0 +1,35 @@
+.tp_event {
+	.date {
+		color: $thim_body_primary_color;
+	}
+
+	.title {
+		a {
+			color: $thim_font_title_color;
+			&:hover {
+				color: $thim_body_primary_color;
+			}
+		}
+	}
+}
+
+.single-tp_event {
+	article {
+		.sticky-sidebar {
+			.share-text {
+				color: $thim_font_title_color;
+			}
+		}
+
+		.tp_event_counter {
+			background-color: $thim_body_primary_color;
+		}
+
+		.event_register_submit {
+			background: $thim_body_primary_color;
+			&:hover {
+				background: darken($thim_body_primary_color, 20%);
+			}
+		}
+	}
+}

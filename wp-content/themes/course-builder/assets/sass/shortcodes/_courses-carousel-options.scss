@@ -1,0 +1,59 @@
+.thim-sc-courses-carousel {
+	.owl-nav {
+		.owl-prev,
+		.owl-next {
+			color: $thim_body_primary_color;
+			&:hover {
+				color: $thim_body_primary_color;
+				opacity: 1;
+			}
+		}
+	}
+	.owl-dots {
+		.owl-dot {
+			span {
+				background: $thim_body_primary_color;
+			}
+			&.active {
+				border-color: $thim_body_primary_color;
+				span {
+					background: $thim_body_primary_color !important;
+				}
+			}
+			&:hover {
+				span {
+					background: $thim_body_primary_color !important;;
+				}
+			}
+		}
+	}
+	.content {
+		.thumbnail {
+			.price {
+				font-family: $thim_font_title_font_family;
+				.course-origin-price {
+					color: $thim_font_title_color;
+				}
+				.course-price {
+					color: $thim_body_primary_color;
+					font-family: $thim_font_title_font_family;
+				}
+			}
+		}
+		.sub-content {
+			.title {
+				a {
+					color: $thim_font_title_color;
+					font-family: $thim_font_title_font_family;
+					&:hover {
+						color: $thim_body_primary_color;
+					}
+				}
+
+			}
+			.data-comment {
+				font-family: $thim_font_title_font_family;
+			}
+		}
+	}
+}
